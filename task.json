@@ -10,85 +10,199 @@
       "id": 2,
       "title": "Create a new project",
       "description": "Create a new project using the Express application generator",
-      "completed": true
+      "completed": true,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.326Z",
+      "updatedAt": "2025-11-25T13:44:10.326Z"
     },
     {
       "id": 3,
       "title": "Install nodemon",
       "description": "Install nodemon as a development dependency",
-      "completed": true
+      "completed": true,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.326Z",
+      "updatedAt": "2025-11-25T13:44:10.326Z"
     },
     {
       "id": 4,
       "title": "Install Express",
       "description": "Install Express",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 5,
       "title": "Install Mongoose",
       "description": "Install Mongoose",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 6,
       "title": "Install Morgan",
       "description": "Install Morgan",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 7,
       "title": "Install body-parser",
       "description": "Install body-parser",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 8,
       "title": "Install cors",
       "description": "Install cors",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 9,
       "title": "Install passport",
       "description": "Install passport",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 10,
       "title": "Install passport-local",
       "description": "Install passport-local",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 11,
       "title": "Install passport-local-mongoose",
       "description": "Install passport-local-mongoose",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 12,
       "title": "Install express-session",
       "description": "Install express-session",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 13,
       "title": "Install connect-mongo",
       "description": "Install connect-mongo",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 14,
       "title": "Install dotenv",
       "description": "Install dotenv",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
     },
     {
       "id": 15,
       "title": "Install jsonwebtoken",
       "description": "Install jsonwebtoken",
-      "completed": false
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.327Z",
+      "updatedAt": "2025-11-25T13:44:10.327Z"
+    },
+    {
+      "id": 16,
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.401Z",
+      "updatedAt": "2025-11-25T13:44:10.401Z"
+    },
+    {
+      "id": 17,
+      "title": "Priority Task",
+      "description": "Priority Task Description",
+      "completed": false,
+      "priority": "high",
+      "createdAt": "2025-11-25T13:44:10.534Z",
+      "updatedAt": "2025-11-25T13:44:10.534Z"
+    },
+    {
+      "id": 18,
+      "title": "Sort Task 1",
+      "description": "Sort 1",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.627Z",
+      "updatedAt": "2025-11-25T13:44:10.627Z"
+    },
+    {
+      "id": 19,
+      "title": "Sort Task 2",
+      "description": "Sort 2",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:10.651Z",
+      "updatedAt": "2025-11-25T13:44:10.651Z"
+    },
+    {
+      "id": 20,
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:45.176Z",
+      "updatedAt": "2025-11-25T13:44:45.176Z"
+    },
+    {
+      "id": 21,
+      "title": "Priority Task",
+      "description": "Priority Task Description",
+      "completed": false,
+      "priority": "high",
+      "createdAt": "2025-11-25T13:44:45.439Z",
+      "updatedAt": "2025-11-25T13:44:45.439Z"
+    },
+    {
+      "id": 22,
+      "title": "Sort Task 1",
+      "description": "Sort 1",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:45.454Z",
+      "updatedAt": "2025-11-25T13:44:45.454Z"
+    },
+    {
+      "id": 23,
+      "title": "Sort Task 2",
+      "description": "Sort 2",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2025-11-25T13:44:45.476Z",
+      "updatedAt": "2025-11-25T13:44:45.476Z"
     }
   ]
 }
