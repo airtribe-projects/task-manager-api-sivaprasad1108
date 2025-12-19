@@ -101,6 +101,45 @@ tap.test("DELETE /tasks/:id with invalid id", async (t) => {
   t.end();
 });
 
+// create tasks with priority and sorting to test filtering and sorting endpoints
+tap.test("POST /tasks with priority and GET /tasks/priority/:level", async (t) => {
+  const newTask = {
+    title: "Priority Task",
+    description: "Priority Task Description",
+    completed: false,
+    priority: "high",
+  };
+  const response = await server.post("/tasks").send(newTask);
+  t.equal(response.status, 201);
+  t.equal(response.body.priority, "high");
+
+  const listResp = await server.get("/tasks/priority/high");
+  t.equal(listResp.status, 200);
+  t.ok(Array.isArray(listResp.body));
+  t.ok(listResp.body.some(ti => ti.title === 'Priority Task'));
+  t.end();
+});
+
+tap.test("GET /tasks?sort=asc returns tasks in ascending order", async (t) => {
+  // create two new tasks in sequence
+  const t1 = await server.post("/tasks").send({ title: "Sort Task 1", description: "Sort 1", completed: false });
+  // small pause to create different timestamps
+  await new Promise((r) => setTimeout(r, 15));
+  const t2 = await server.post("/tasks").send({ title: "Sort Task 2", description: "Sort 2", completed: false });
+
+  t.equal(t1.status, 201);
+  t.equal(t2.status, 201);
+
+  const listResp = await server.get("/tasks?sort=asc");
+  t.equal(listResp.status, 200);
+  const titles = listResp.body.map(it => it.title);
+  const idx1 = titles.indexOf("Sort Task 1");
+  const idx2 = titles.indexOf("Sort Task 2");
+  t.ok(idx1 >= 0 && idx2 >= 0);
+  t.ok(idx1 < idx2);
+  t.end();
+});
+
 tap.teardown(() => {
   process.exit(0);
 });
